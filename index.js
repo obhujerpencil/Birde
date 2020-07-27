@@ -1,4 +1,3 @@
-window.onload=function(){
 var name=prompt("Miss Birde wants be your friend. Make a name for yourself. Type your name & press ok to continue. Miss Birde will call u null if u shy your name.");
 alert("chirrup! Miss Birde & "+name+" r conected via Dicee.");
 document.querySelector(".refresh").addEventListener("click",x);
@@ -31,4 +30,4 @@ audio.play();}
 $(".img").mouseover(m)
 function m(){
 var audo=new Audio('sing.mp3');
-audo.play();}}
+audo.play();}
