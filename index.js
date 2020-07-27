@@ -16,9 +16,9 @@ else if(randomNumber=randomDice2)
 document.querySelector(".refresh").innerHTML=("It's a draw! 🎲");
 {setTimeout(function(){alert("Tap ok & click on the result of the previous outcome to continue playing");},1500)}}
 $(".end").mouseover(j);
-function j(){$(".end").html("Dear happines, let's scroll & click to end our fight.");}
+function j(){$(".end").html("Assign 2 friends & start playing; btw Miss Birde created this amazing website for u, "+name+" . cheer her by double tapping her feathers.");}
 $(".end").mouseout(k);
-function k(){$(".end").html("Assign 2 friends & start playing; btw Miss Birde created this amazing website for u, "+name+" . cheer her by double tapping her feathers.");}
+function k(){$(".end").html("Dear happines, let's scroll & click to end our fight.");}
 $(".refresh").click(l);
 function l(){
 var audio=new Audio('sing.mp3');
