@@ -16,7 +16,7 @@ document.querySelector(".refresh").innerHTML=("🚩 Player 2 Won!");
 else if(randomNumber=randomDice2)
 document.querySelector(".refresh").innerHTML=("It's a draw! 🎲");
 setTimeout(time,1500);
-function time(){if(fire===false){alert("click on the result of the previous outcome to continue playing.");}}fire=true;}
+function time(){if(fire===false){alert("click on the result of the previous outcome to continue playing.");}fire=true;}}
 $(".end").mouseover(j);
 function j(){$(".end").html("Assign 2 friends & start playing; btw Miss Birde created this amazing website for u, "+name+" . cheer her by double tapping her feathers.");}
 $(".end").mouseout(k);
