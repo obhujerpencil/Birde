@@ -11,10 +11,10 @@ var randomDice2=("dice"+randomNumber2+".png");
 document.querySelectorAll(".row .img")[1].setAttribute("src",randomDice2);
 if (randomNumber>randomNumber2){
   document.querySelector(".refresh").innerHTML=("Player 1 Won! 🚩");}
-else if(randomNumber<randomNumber2)
-document.querySelector(".refresh").innerHTML=("🚩 Player 2 Won!");
-else if(randomNumber=randomDice2)
-document.querySelector(".refresh").innerHTML=("It's a draw! 🎲");
+else if(randomNumber<randomNumber2){
+document.querySelector(".refresh").innerHTML=("🚩 Player 2 Won!");}
+else if(randomNumber=randomDice2){
+document.querySelector(".refresh").innerHTML=("It's a draw! 🎲");}
 setTimeout(time,1500);
 function time(){
   if(fire===false){alert("click on the result of the previous outcome to continue playing.");}
@@ -27,11 +27,15 @@ $(".refresh").click(l);
 function l(){
 var audio=new Audio('sing.mp3');
 audio.play();}
+
 $(".bird").click(p);
 function p(){
 var audio=new Audio('sing.mp3');
-audio.play();}
+audio.play();
+}
+//
 $(".img").mouseover(m)
 function m(){
 var audo=new Audio('sing.mp3');
-audo.play();}
+audo.play();
+}
